@@ -1,0 +1,94 @@
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+[TestNG] Running:
+  C:\Users\Zver\AppData\Local\JetBrains\IdeaIC2020.3\temp-testng-customsuite.xml
+
+0 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+0 [main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.level: simple
+0 [main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.targetRecords: 4
+15 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7203c7ff
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - -Dio.netty.noUnsafe: false
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - Java version: 11
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.storeFence: available
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: available, true
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @31d0e481
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+47 [main] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+62 [main] DEBUG io.netty.util.internal.PlatformDependent  - maxDirectMemory: 1025507328 bytes (maybe)
+62 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: C:\Users\Zver\AppData\Local\Temp (java.io.tmpdir)
+62 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+62 [main] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+62 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.maxDirectMemory: -1 bytes
+62 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+62 [main] DEBUG io.netty.util.internal.CleanerJava9  - java.nio.ByteBuffer.cleaner(): available
+62 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+62 [main] DEBUG io.netty.util.internal.PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
+117 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+117 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+402 [main] DEBUG io.netty.handler.ssl.JdkSslContext  - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+402 [main] DEBUG io.netty.handler.ssl.JdkSslContext  - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+434 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 8
+449 [main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+449 [main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 8
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 8
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 9
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 4194304
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.useCacheForAllThreads: false
+487 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+503 [main] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+503 [main] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 0
+503 [main] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 40233
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2869 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 6100 (auto-detected)
+2875 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv4Stack: false
+2875 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv6Addresses: false
+3107 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations  - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+3107 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+3354 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: d0:ab:d5:ff:fe:3f:43:56 (auto-detected)
+3492 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkAccessible: true
+3492 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkBounds: true
+3492 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75c4df2b
+3539 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.maxCapacityPerThread: 4096
+3539 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.ratio: 8
+3539 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.chunkSize: 32
+3539 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.blocking: false
+[1680197677.855][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680197679.411][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+28291 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli  - brotli4j not in the classpath; Brotli support will be unavailable.
+29457 [main] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0x374991a75e89ae26
+мар. 30, 2023 8:34:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 107
+61978 [main] INFO logger.Logger  - Open onliner.by
+77738 [main] INFO logger.Logger  - Click on the catalog
+79649 [main] INFO logger.Logger  - Checking the electronics section
+80531 [main] INFO logger.Logger  - Checking the Auto and Moto section
+80839 [main] INFO logger.Logger  - Checking the section Beauty and sports
+81040 [main] INFO logger.Logger  - Checking the section Computers and networks
+81207 [main] INFO logger.Logger  - Checking the section Construction and repair
+81240 [main] INFO logger.Logger  - Checking the Еlectronics section
+81340 [main] INFO logger.Logger  - Checking the section for Children and mothers
+81656 [main] INFO logger.Logger  - Checking the Home and Garden section
+83581 [main] INFO logger.Logger  - Closing the browser
+
+===============================================
+Default Suite
+Total tests run: 8, Failures: 0, Skips: 0
+===============================================
+
+
+Process finished with exit code 0

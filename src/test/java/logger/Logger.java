@@ -1,4 +1,4 @@
-package catalog;
+package logger;
 
 import org.testng.Reporter;
 
@@ -6,8 +6,7 @@ public class Logger {
     private static final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(Logger.class);
     private static Logger instance = null;
 
-
-    private Logger() {
+    public Logger() {
     }
 
     public static synchronized Logger getInstance() {
