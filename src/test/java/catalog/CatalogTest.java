@@ -19,7 +19,7 @@ public class CatalogTest {
     private static WebDriver driver;
     private static final String PRODUCT_NAME_PATTERN = "//span[@class='catalog-navigation-classifier__item-title-wrapper' and text()='%s']";
     private static Properties properties;
-    private static Logger log = Logger.getLogger(CatalogTest.class);
+    public static Logger log = Logger.getLogger(CatalogTest.class);
 
     @BeforeMethod
     public void init() {
@@ -32,7 +32,7 @@ public class CatalogTest {
         driver.get("https://onliner.by");
         log.info("Open onliner.by");
         driver.findElement(By.cssSelector(".b-main-navigation__link")).click();
-        log.info("Click for section");
+        log.info("Click on the catalog");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
