@@ -7,14 +7,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
 import java.util.concurrent.TimeUnit;
 
 public class CatalogTest {
     private static ChromeOptions options;
     private static WebDriver driver;
     private static final String PRODUCT_NAME_PATTERN = "//span[@class='catalog-navigation-classifier__item-title-wrapper' and text()='%s']";
-    protected static logger.Logger log = logger.Logger.getInstance();
+    public static logger.Logger log = logger.Logger.getInstance();
 
     @BeforeTest
     public void init() {
